@@ -1,0 +1,27 @@
+@import url(category.css);
+
+.comment_state {
+    margin-left: 10px;
+}
+
+.comment {
+    margin: 0px 20px 10px 20px;
+    padding: 0px 10px 10px 10px;
+    width: fit-content;
+    background-color: #d6daf0;
+    border: 1px solid #b7c5d9;
+}
+
+.post-content {
+    display: flex;
+}
+
+a {
+    color: blue;
+}
+
+@media screen and (max-width: 610px){
+    .post-content {
+        flex-direction: column;
+    }
+}

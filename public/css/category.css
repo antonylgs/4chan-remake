@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    background: #eef2ff url(../images/ressources/fade-blue.png) top center repeat-x;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 10pt;
+}
+
+header {
+    padding-top: 20px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories {
+    margin: 2px 0px 0px 2px;
+}
+
+.categories a {
+    font-weight: 400;
+    padding: 1px;
+    text-decoration: none;
+    color: #34345c;
+    font-size: 9pt;
+}
+
+.poster {
+    border: solid 1px black;
+    margin-bottom: 10px;
+}
+
+.poster-two {
+    width: 468px;
+    height: 60px;
+    object-fit: cover;
+    object-position: 100% 0;
+    margin-top: 20px;
+}
+
+hr {
+    width: 99%;
+    border: none;
+    border-top: 1px solid #b7c5d9;
+    height: 0;
+}
+
+header hr {
+    width: 100%;
+}
+
+.return {
+    align-self: flex-start;
+}
+
+h1 {
+    color: #af0a0f;
+    margin: 0;
+    font-family: Tahoma,sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+table {
+    border-spacing: 1px;
+}
+
+input, textarea {
+    border: 1px solid #aaa;
+}
+
+input[type="file"] {
+    border: 0;
+}
+
+button {
+    margin-left: 5px;
+}
+
+tr>td:first-child {
+    background-color: #98e;
+    color: #000;
+    font-weight: 700;
+    border: 1px solid #000;
+    padding: 0 5px;
+    font-size: 10pt;
+}
+
+.post {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.post-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos {
+    margin-left: 10px;
+    word-wrap: break-word;
+}
+
+.post-image {
+    max-height: 200px;
+    margin-right: 10px;
+}
+
+.post-content {
+    max-width: 1000px;
+    word-wrap: break-word;
+    margin-left: 10px;
+}
+
+span.title {
+    color: #0f0c5d;
+    font-weight: 700;
+}
+
+span.author {
+    color: #117743;
+    font-weight: 700;
+}
+
+.rules {
+    position: relative;
+    right: 80px;
+    font-size: 11px;
+}
+
+.bottom-nav {
+    margin-left: 10px;
+}
+
+.bottom-nav a, .return {
+    color: blue;
+}
+
+.error {
+    color:red;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 610px){
+    .post {
+        flex-direction: column;
+    }
+
+    .post-image {
+        max-width: 300px;
+        max-height: none;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .poster-two {
+        display: none;
+    }
+}
