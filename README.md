@@ -1,3 +1,3 @@
 # 4chan Remake
 
-**Online Website :** https://antonylanglois.com/4chan-remake/
+**Online Website :** https://4chan-remake.antonylanglois.com
